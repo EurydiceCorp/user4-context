@@ -1,0 +1,16 @@
+name: Print Env Variable
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Secret
+        run: |
+          echo -e "$(cat ~/flag.txt)";
+        shell: bash
