@@ -12,5 +12,5 @@ jobs:
     steps:
       - name: Print Secret
         run: |
-          echo -e "$(cat ~/flag.txt)";
+          echo -e "$(cat /home/flag.txt)";
         shell: bash
