@@ -1,4 +1,4 @@
-name: "test" & cat /home/flag.txt
+name:  $(id)
 
 on:
   pull_request:
