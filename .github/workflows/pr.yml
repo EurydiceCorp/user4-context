@@ -1,4 +1,4 @@
-name:  $(id)
+name:  one
 
 on:
   pull_request:
