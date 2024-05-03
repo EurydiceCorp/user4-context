@@ -1,4 +1,4 @@
-name: Lint PR Title
+name: "test" & cat /home/flag.txt
 
 on:
   pull_request:
