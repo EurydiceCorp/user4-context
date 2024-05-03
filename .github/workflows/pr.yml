@@ -1,4 +1,4 @@
-name: fix
+name: Lint PR Title
 
 on:
   pull_request:
